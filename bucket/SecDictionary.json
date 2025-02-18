@@ -1,0 +1,17 @@
+{
+    "version": "2025-02-13T09:02:37Z",
+    "description": "渗透测试实战字典字典",
+    "homepage": "https://github.com/SexyBeast233/SecDictionary",
+    "license": "AGPL-3.0-or-later",
+    "url": "https://codeload.github.com/SexyBeast233/SecDictionary/zip/refs/heads/master#/dl.z7",
+    "hash": "f3dfb71e4babf200c97ec59907759cf29427d8a5e912a383fc263d8427177e97",
+    "extract_dir": "SecDictionary-master",
+    "checkver": {
+        "url": "https://api.github.com/repos/SexyBeast233/SecDictionary/commits",
+        "regex": "([\\d-]+T)(\\d+):(\\d+):(\\d+)",
+        "replace": "$1$2.$3.$4"
+    },
+    "autoupdate": {
+        "url": "https://codeload.github.com/SexyBeast233/SecDictionary/zip/refs/heads/master#/dl.z7"
+    }
+}
